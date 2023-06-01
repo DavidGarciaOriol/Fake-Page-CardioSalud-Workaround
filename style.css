@@ -1,0 +1,72 @@
+
+    /* Estilos generales */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    
+    /* Encabezado */
+    header {
+      background-color: #f2f2f2;
+      padding: 20px;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+    }
+
+    .logo {
+        width: 50px;
+        margin-right: 50px;
+        transform: scale(1.8);
+      }
+    
+    h1 {
+      color: #333;
+      font-size: 28px;
+      margin: 0;
+    }
+    
+    /* Contenido principal */
+
+    .main-section {
+      background-image: url('src/img/csalud_bg.jpg');
+      background-position: center;
+      background-size: cover;
+      height: 600px;
+      position: relative;
+      text-align: center;
+      flex-grow: 1;
+    }
+    
+    .main-content {
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+      color: #cccccc;
+      left: 50%;
+      position: absolute;
+      top: 37.5%;
+      transform: translate(-50%, -50%);
+      width: 80%;
+
+    }
+    
+    h2 {
+      font-size: 48px;
+      margin: 0;
+    }
+    
+    p {
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+    
+    /* Pie de página */
+      
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+    }
